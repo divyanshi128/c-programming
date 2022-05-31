@@ -1,0 +1,51 @@
+#include <stdio.h>
+
+int main()
+{
+    int num;
+    printf("enter the number: ");
+    scanf("%d",&num);
+    if(num>0 && num<13){
+        switch(num){
+            case 1:
+            printf("its JANUARY and have 31 days");
+            break;
+            case 2:
+            printf("its FEBURARY and have 30 days");
+            break;
+            case 3:
+            printf("its MARCH and have 31 days");
+            break;
+            case 4:
+            printf("its APRIL and have 30 days");
+            break;
+            case 5:
+            printf("its MAY and have 31 days");
+            break;
+            case 6:
+            printf("its JUNE and have 30 days");
+            break;
+            case 7:
+            printf("its JULY and have 31 days");
+            break;
+            case 8:
+            printf("its AUGUST and have 31 days");
+            break;
+            case 9:
+            printf("its SEPTEMBER and have 30 days");
+            break;
+            case 10:
+            printf("its OCTOBER and have 31 days");
+            break;
+            case 11:
+            printf("its NOVEMBER and have 30 days");
+            break;
+            case 12:
+            printf("its DECEMBER and have 31 days");
+            break;
+        }
+    }    
+    else
+    printf("enter the number between 1-12");
+    return 0;
+}
