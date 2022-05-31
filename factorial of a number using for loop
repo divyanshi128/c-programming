@@ -1,0 +1,18 @@
+#include <stdio.h>
+ 
+int main()
+{
+    int num,i;
+    long int flag;
+  
+    printf("Enter an integer number: ");
+    scanf("%d",&num);
+  
+    flag=1;
+    for(i=num; i>=1; i--)
+        flag=flag*i;
+         
+    printf("\nFactorial of %d is = %ld",num,flag);
+      
+    return 0;
+}
